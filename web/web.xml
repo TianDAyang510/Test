@@ -1,0 +1,53 @@
+<web-app>
+    <servlet>
+        <servlet-name>HandleRegister</servlet-name>
+        <servlet-class>handle.data.HandleRegister</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HandleRegister</servlet-name>
+        <url-pattern>/HandleRegister</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>HandleLogin</servlet-name>
+        <servlet-class>handle.data.HandleLogin</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HandleLogin</servlet-name>
+        <url-pattern>/HandleLogin</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>UpFile</servlet-name>
+        <servlet-class>handle.data.UpFile</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpFile</servlet-name>
+        <url-pattern>/UpFile</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+</web-app>

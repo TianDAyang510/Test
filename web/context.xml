@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<context>
+    <Resource
+        name = "adverConn"
+        type = "javax.sql.DataSource"
+        driverClassName = "com.mysql.jdbc.Driver"
+        url="jdbc:mysql://127.0.0.1:3306/adertisement?;characterEncoding = utf-8"
+        username="root"
+        password="5200"
+        maxActive="15"
+        maxIdle="15"
+        minIdle="1"
+        maxWait="1000"
+
+        />
+
+</context>
